@@ -1,0 +1,38 @@
+<form >
+    <div class="div">
+        <h2 style="align-self: center;"> Enter the user details </h2>
+        <div class="form_div">
+            <label style="width: 200px">Unique Id</label>
+            <input type="text" id="unique_id"  class="form-control">
+        </div>
+        <div class="form_div">
+                    <label style="width: 200px">First Name</label>
+                    <input type="text" id="firstName"  class="form-control">
+        </div>
+        <div class="form_div">
+            <label>Last Name</label>
+            <input id="lastName" type="text" class="form-control">
+        </div>
+        <div class="form_div">
+            <label>Phone</label>
+            <input id="phone" type="text" class="form-control">
+        </div>
+        <div class="form_div">
+            <label >Email (*) </label>
+            <input id="email" type="email" class="form-control" required="true">
+        </div>
+        <div class="form_div">
+            <label >City (*) </label>
+            <input id="city" type="text" class="form-control" required="true"> 
+        </div>
+        <div class="form_div">
+            <label>Amount</label>
+            <input id="amount" type="number" class="form-control">
+        </div>
+    </div>
+    <div style=
+            "text-align: center;
+            margin-top: 20px;">
+        <button class="btn btn-primary" (click)="checkout()"> Click to Pay </button>
+    </div>    
+</form>
